@@ -1,36 +1,41 @@
 {
-  "name": "element-china-area-data",
-  "version": "4.1.1",
-  "description": "Element UI 级联 中国省市区数据",
-  "main": "./dist/app.js",
-  "scripts": {
-    "dev": "webpack-dev-server --config webpack.dev.config.js --inline --hot",
-    "docs": "webpack --config webpack.doc.config.js --progress --hide-modules",
-    "build": "webpack --config webpack.build.config.js --progress --hide-modules",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "element-china-area-data",
+  "_id": "element-china-area-data@4.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-VmWTVLHeHc9lQeKj+n9pAtv18+mt1lcThflOBRDHGlvL/JfHSXHgEWy5LkJgb0VrPaarGytijFeDNmnmGjggCg==",
+  "_location": "/element-china-area-data",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "element-china-area-data",
+    "name": "element-china-area-data",
+    "escapedName": "element-china-area-data",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Plortinus/element-china-area-data.git"
-  },
-  "keywords": [
-    "element",
-    "elementui",
-    "element-ui",
-    "vue",
-    "省市区",
-    "级联"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "author": "plortinus@gmail.com",
-  "license": "MIT",
+  "_resolved": "https://registry.npmjs.org/element-china-area-data/-/element-china-area-data-4.1.1.tgz",
+  "_shasum": "9f23fb7b7ff1774bf4282596f43c56abe396bca1",
+  "_spec": "element-china-area-data",
+  "_where": "C:\\Users\\helixcg\\Desktop\\new-yujia",
+  "author": {
+    "name": "plortinus@gmail.com"
+  },
   "bugs": {
     "url": "https://github.com/Plortinus/element-china-area-data/issues"
   },
-  "homepage": "https://github.com/Plortinus/element-china-area-data#readme",
+  "bundleDependencies": false,
   "dependencies": {
     "china-area-data": "^4.0.0",
     "lodash": "^4.17.10"
   },
+  "deprecated": false,
+  "description": "Element UI 级联 中国省市区数据",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
@@ -52,5 +57,28 @@
     "webpack": "^4.16.4",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
-  }
+  },
+  "homepage": "https://github.com/Plortinus/element-china-area-data#readme",
+  "keywords": [
+    "element",
+    "elementui",
+    "element-ui",
+    "vue",
+    "省市区",
+    "级联"
+  ],
+  "license": "MIT",
+  "main": "./dist/app.js",
+  "name": "element-china-area-data",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plortinus/element-china-area-data.git"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.build.config.js --progress --hide-modules",
+    "dev": "webpack-dev-server --config webpack.dev.config.js --inline --hot",
+    "docs": "webpack --config webpack.doc.config.js --progress --hide-modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "4.1.1"
 }

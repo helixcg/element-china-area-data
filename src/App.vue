@@ -84,7 +84,7 @@ export default {
       selectedOptions1: ["110000", "110100"],
       selectedOptions2: ["120000", "120100", "120101"],
       selectedOptions3: ["130000", ""],
-      selectedOptions4: ["120000", "120100", ""]
+      selectedOptions4: ['110000', "110100", "110101"]
     };
   },
 
@@ -95,10 +95,10 @@ export default {
     convertTextToCode(provinceText, cityText, regionText) {
       let code = "";
       if (provinceText && this.TextToCode[provinceText]) {
-        const province = this.TextToCode[provinceText];
+        let province = this.TextToCode[provinceText];
         code += province.code + ", ";
         if (cityText && province[cityText]) {
-          const city = province[cityText];
+          let city = province[cityText];
           code += city.code + ", ";
           if (regionText && city[regionText]) {
             code += city[regionText].code;
